@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stephen Muchanga - Software Developer Portfolio">
+  <title>Stephen Muchanga | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Stephen Muchanga</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hi, I'm Stephen 👋</h2>
+    <p>A passionate software developer crafting web solutions that are functional and elegant.</p>
+    <p>Besides, a thoughtful data analyst, enthusiastic about working with data to derive insights and drive decision-making.</p>
+    <button onclick="scrollToSection('projects')">See My Work</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a dedicated software development learner, currently building full-stack web apps. My expertise lies in HTML, CSS, JavaScript, Python, and SQL. I love transforming ideas into meaningful digital experiences.</p>
+    <p>In addition to my software development skills, I have a keen interest in data analysis. My expertise includes statistical analysis and data visualization using tools like Excel, SQL, and Power BI. I enjoy exploring datasets, uncovering patterns, and providing actionable insights to help businesses make informed decisions.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A responsive portfolio to showcase my journey in tech.</p>
+      <img src="images/Journey to tech.jpg" alt="Journey to Tech" class="project-image" width ="300" height="200">
+    </div>
+    <div class="project">
+      <h3>Task Manager App</h3>
+      <p>Built with Flask and SQLite, helps users organize daily tasks.</p>
+      <img src="images/Task tracker.png" alt="Task Manager App" class="project-image" width ="300" height="200">
+      <h3>Productivity Analyzer</h3>
+      <p>Utilizes Excel and SQL tools for data analysis techniques for users to identify bottlenecks and improve productivity.</p>
+      <img src="images/Excel and SQL.png" alt="Productivity Analyzer" class="project-image" width ="300" height="200">
+      <h3>Data Insights Dashboard</h3>
+      <p>Built dashboards with PowerBI to incorporate data visualization to track users' task completion over time.</p>
+      <img src="images/PowerBI visualizations.jpg" alt="Data Insights Dashboard" class="project-image" width ="300" height="150">
+      
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="responseMsg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Stephen Muchanga. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
