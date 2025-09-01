@@ -1,1 +1,0 @@
-# My-Journey-to-Tech

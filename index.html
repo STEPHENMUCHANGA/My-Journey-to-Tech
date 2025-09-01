@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iRecipe - Online Recipe Recommender App</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="script" href="script.js">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 iRecipe</h1>
+    <p>Your AI-powered recipe recommender</p>
+
+    <form id="tripForm">
+      <label>Ingredient:</label>
+      <input type="text" id="ingredient" required>
+
+      <label>Number of Servings:</label>
+      <input type="number" id="servings" required>
+
+      <label>Max Preparation Time (minutes):</label>
+      <input type="text" id="prepTime" required>
+
+      <button type="submit">Generate Recipe</button>
+    </form>
+
+    <div id="result">
+      <h2>Your Recipe</h2>
+      <pre id="recipeOutput"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
